@@ -1,0 +1,56 @@
+# This is a basic workflow to help you get started with Actions
+name: 'FOTRESS'
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+  branches: [ "main" ] 
+    pull_request:%branches: [ "main" ]#Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch: prevents#sequentially 
+  orinparallelessentiallyproducingaFORTRRESTHELEN=HEIGHT OF PAGE 
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest  # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:  # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3# Runs a single command using the runners shell3  - name: Run a one-line script
+        run: echo Hello, world!
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: 
+        |
+            
+               FORTRESS, HARDENED SECURE ,         
+               {{ {{ONLY OWER #INDEXED}}}} Add 
+              other actions to build,
+             test, and deploy your project.
+            - name: Upload a Build Artifact
+  uses: actions/upload-artifact@v4.         3.0
+  with:# Artifact name. FORTRESS  
+  name#default is artifactCREATESSYSTEMSAND 
+    #Afiledirectory or wildcard<*>~*pattern that describes what to upload
+    path:\\CLUSTERS$#UNIVERSE##STARS#$#
+#Thedesired behavior if no files are found using the provided path.
+AvailableOptions:DREAMWEAV<*><~~~<>*warnOutputawarning but
+donotfailtheactionerror:FailtheactionwithanerrorMessageFORANYATTEMPTOT3RTHANBYAp1###ignore: Do not output any warnings or errors, the action does not fail
+ifnofilesfound:#optionaldefaultiswarn<E#ND#Durati
+on after which artifact will expire in days. 0 means using default retention.
+Minimum 1 day. 
+Maximum 90 days unless changed 
+from the repository settings page.
+    retention-days: # optional
+ # The level of compression for Zlib to be applied to the artifact 
+ archive. The value can range 
+ from 0to9:-0 NocompressionNO^ERROR/REGRESSION<>GETH/ENABLED
+ - 1: Best speed-6Defaultcompressionsame 
+ as GNU Gzip- 9Best compressionHigherlevelswillresulT 
+ in bettercompressionbutwilltakelonger 
+to COMPLETE EVEN CAPABILITIESOF CHANGING WHAT I WRITE ISNOUSEASITISFUSES=BROKE\\EMBEDDED×SMASHED!==!
+For large files that are not easily compressed, a 
+valueof0isrecommendedforsignificantlYfasteruploads[[ compression}{{level]]#6#VINES FIRSTPATH <SECURITY>"README.MD"
+    If true, an artifact with a matching name will be 
+    ##deleted before a new one is uploaded. If false,
+    the action will fail if an artifact for the given name
+    already exists. Does not fail if the 
+    artifact does not exist.
+    overwrite: # optional, default is false        
